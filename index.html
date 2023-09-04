@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>HTML Form Practice</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <form>
+        <fieldset>
+            <legend>Contact Info</legend>
+        
+        <div>
+       <label for="name">Full Name:</label>
+       <input id="name" type="text" name="name" autofocus="on" placeholder="Jane Doe" />
+        </div>
+        <div>
+        <label for="email">Email:</label>
+        <input id="email" type="text" name="email" placeholder="your@email.com" />
+        </div>
+        <div>
+            <label for="form-message">Comments:</label>
+            <textarea id="form-message" name="comments" maxlength="200"></textarea>
+        </div>
+    </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </main>
+  </body>
+</html>
